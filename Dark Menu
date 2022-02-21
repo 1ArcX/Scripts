@@ -1,5 +1,9 @@
+if game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame:FindFirstChild('LootBoxBtn') then
 game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.LootBoxBtn:Destroy()
+end
+if game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame:FindFirstChild('InvBtn') then
 game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.InvBtn:Destroy()
+end
 game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuBtn.BackgroundColor3 = Color3.fromRGB(33,33,33)
 game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SkillFrame.BackgroundColor3 = Color3.fromRGB(33,33,33)
 game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.GangFrame.BackgroundColor3 = Color3.fromRGB(33,33,33)
